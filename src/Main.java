@@ -1,6 +1,16 @@
 public class Main {
     public static void main(String[] args) {
+        // Первое задание (проба пера)
+        int[] arr = new int[10];
+        int sum = 0;
+        for (int index = 0; index < arr.length; index++) {
+            arr[index] = index + 1;
+            sum += arr[index];
+        }
+        System.out.println(sum);
     }
+
+
 // Задание 1
     int[] arr = generateRandomArray();
 
