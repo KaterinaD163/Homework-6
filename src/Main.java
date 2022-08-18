@@ -39,10 +39,27 @@ public class Main {
         double averageCosts = arr.length;
         for (int i = 0; i < arr.length; i++) {
             averageCosts = sum / 30;
+            break;
         }
         System.out.println("Средняя сумма трат за месяц составила " + averageCosts + " рублей.");
+
+        // Задание 4
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
