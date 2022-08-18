@@ -19,21 +19,25 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " + sum + "рублей");
 
-        int minCosts = arr[0];
+        //Задание 2
+        int minCosts = 0;
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] < minCosts) ;
             minCosts = arr[i];
             break;
         }
         int maxCosts = -1;
-        for (int a = 0; a < arr.length; a++) {
-            if (arr[a] > maxCosts) ;
-            maxCosts = arr[a];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > maxCosts);
+            maxCosts = arr[i];
+            break;
         }
         System.out.println("Минимальная сумма трат за день составила " + minCosts + "рублей." +
-                "Максимальная сумма трат за день составила " + maxCosts + "рублей.");
+                " Максимальная сумма трат за день составила " + maxCosts + "рублей.");
     }
 }
+
+// Задание 3
 
 
 
