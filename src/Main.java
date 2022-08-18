@@ -28,16 +28,22 @@ public class Main {
         }
         int maxCosts = -1;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > maxCosts);
+            if (arr[i] > maxCosts) ;
             maxCosts = arr[i];
             break;
         }
         System.out.println("Минимальная сумма трат за день составила " + minCosts + "рублей." +
                 " Максимальная сумма трат за день составила " + maxCosts + "рублей.");
+
+        // Задание 3
+        double averageCosts = arr.length;
+        for (int i = 0; i < arr.length; i++) {
+            averageCosts = sum / 30;
+        }
+        System.out.println("Средняя сумма трат за месяц составила " + averageCosts + " рублей.");
     }
 }
 
-// Задание 3
 
 
 
