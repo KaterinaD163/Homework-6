@@ -37,10 +37,7 @@ public class Main {
 
         // Задание 3
         double averageCosts = arr.length;
-        for (int i = 0; i < arr.length; i++) {
-            averageCosts = sum / 30;
-            break;
-        }
+        averageCosts = sum / 30;
         System.out.println("Средняя сумма трат за месяц составила " + averageCosts + " рублей.");
 
         // Задание 4
